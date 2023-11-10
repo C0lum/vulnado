@@ -16,7 +16,7 @@ $(document).ready(function(){
 
       $.ajax({
         type: "DELETE",
-        url: "http://localhost:8080/comments/" + id
+        url: "http://localhost:8083/comments/" + id
       }).done(function(){
         $(parent).remove();
       });
